@@ -28,9 +28,8 @@ for (let i = 0; i < lek.length; i++) {
   });
 }
 for (let i = 0; i < del.length; i++) {
-  let det = del[i];
-  det.addEventListener("click", function () {
-    det.parentElement.remove();
+  det[i].addEventListener("click", function () {
+    det[i].parentElement.remove();
     total();
   });
 }
